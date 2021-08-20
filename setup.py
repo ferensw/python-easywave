@@ -21,6 +21,7 @@ setup(
     version="0.0.1",
     description="Easywave Library",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     # The project's main homepage.
     url="https://github.com/ferensw/python-easywave",
     # Author details

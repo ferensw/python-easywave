@@ -19,14 +19,10 @@ I don't know if this also works Niko Easywave, so be my guest to test it...
 Installation
 ------------
 
-.. code-block:: bash
-
     $ pip install easywave
 
 Usage of Easywave CLI
 -------------------------
-
-.. code-block::
 
     $ easywave -h
     Command line interface for easywave library.
@@ -51,14 +47,10 @@ Command can be code "A", "B", "C" or "D". ID is channel id.
 
 Intercept and display Easywave packets:
 
-.. code-block::
-
     $ easywave
     packet {'header': 'receive', 'id': '1c14a3', 'command': 'A'}
 
 Send a command:
-
-.. code-block::
 
     $ easywave A 01
 
